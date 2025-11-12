@@ -9,7 +9,7 @@ import BettingRankHawk from './projects/BettingRankHawk';
 
 const App = () => {
   return (
-    <Router basename="/lottery">
+    <Router basename="/">
       <Routes>
         <Route path="/betting-rank-hawk" element={<BettingRankHawk />} />
         <Route path="*" element={<Navigate to="/betting-rank-hawk" replace />} />
